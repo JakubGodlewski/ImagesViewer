@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Image_Viewer_Email</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Error_Email_Toast_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Error Email Toast Message</shortDescription>
+        <value>Unable to send email because of the following error:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Error_Loading_Toast_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Error Loading Toast Message</shortDescription>
+        <value>Unable to load images because of the following error:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Error_Toast_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Error Toast Title</shortDescription>
+        <value>Error!</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Filtered_Images</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Filtered Images</shortDescription>
+        <value>Filtered Images</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_AlbumId</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail AlbumId</shortDescription>
+        <value>AlbumId:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail Header</shortDescription>
+        <value>List of filtered images:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail Id</shortDescription>
+        <value>Id:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_No</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail No</shortDescription>
+        <value>No.</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail Subject</shortDescription>
+        <value>List of filtered images</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail Title</shortDescription>
+        <value>Title:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Mail_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Mail URL</shortDescription>
+        <value>URL:</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Next_Page</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Next Page</shortDescription>
+        <value>&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Prev_Page</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Prev Page</shortDescription>
+        <value>&lt;</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Send</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Send</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Success_Toast_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Success Toast Message</shortDescription>
+        <value>Email send</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Success_Toast_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Success Toast Title</shortDescription>
+        <value>Success!</value>
+    </labels>
+    <labels>
+        <fullName>Image_Viewer_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image Viewer Title</shortDescription>
+        <value>Image Viewer</value>
+    </labels>
+</CustomLabels>

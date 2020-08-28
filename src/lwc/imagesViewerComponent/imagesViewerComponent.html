@@ -1,0 +1,38 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            {labels.labelTitle}
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_2-of-3 slds-p-around_xx-small">
+                    <lightning-input type="text" label={labels.labelFilteredImages} value={textValue} onchange={changeText}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_2-of-3 slds-p-around_xx-small">
+                    <lightning-input type="email" label={labels.labelEmail} value={emailValue} onchange={changeEmail}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_2-of-3 slds-p-around_xx-small">
+                    <lightning-button variant="brand" label={labels.labelSend} onclick={sendFilteredImages}></lightning-button>
+                </div>
+            </div>
+        </h3>
+        <div class="slds-p-horizontal_small">
+            <div class="slds-grid slds-wrap">
+                <template for:each={imagesDisplayedList} for:item="image">
+                    <div key={image.Id__c} class="slds-col slds-size_1-of-10 slds-p-around_xx-small">
+                        <c-image-component title={image.Title} url={image.ThumbnailUrl__c}></c-image-component>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <div slot="footer">
+            <div class="slds-clearfix">
+                <div class="slds-float_left">
+                    <lightning-button variant="brand" label={labels.labelPrevPage} onclick={prevPage} disabled={firstPage}></lightning-button>
+                </div>
+                <div class="slds-float_right">
+                    <lightning-button variant="brand" label={labels.labelNextPage} onclick={nextPage} disabled={lastPage}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
